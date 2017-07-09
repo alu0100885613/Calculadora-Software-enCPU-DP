@@ -1,0 +1,25 @@
+xxxx000001111000	mascara para la operacion (reg 
+0101000000111000	carga 8 (reg 5)
+0100000001011000	carga 4 (reg 6)
+0011000001101000	carga 2 (reg 7)
+0110000000001000	carga 0 (reg 6) operacion anterior
+1110000000001000	carga 0 (reg 13)
+0001000000111010	entrada de pto (operando) reg 1 
+0010000001111010	entrada de pto (operador) reg 2
+1110111000011010	salida de pto00 (del reg 1110) 
+1111001001100011	resta (comprobacion si la operacion act es igual a la anterior) (Z==1 saltamos)
+0000000101101001	salto a dir 7		
+0110000001111010	entrada (por si cambia operador)
+1111001001010011	resta (comprobacion)
+0000010010101001	salto
+1111001001000011	resta
+0000010100101001	salto
+1111001000110011	resta
+0000010110101001	salto
+0000000110001001	salto incondicional a (7)
+1110000111100011	ope. resta
+0000000101001001	salto (resta)
+1110111000010010	ope. suma	
+0000000101001001	salto (suma)
+1110000000001000	ope. nada (reset)
+0000000101001001	salto nada(reset)

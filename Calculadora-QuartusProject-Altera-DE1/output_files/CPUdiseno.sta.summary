@@ -1,0 +1,53 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'clk'
+Slack : -12.817
+TNS   : -1947.959
+
+Type  : Slow Model Setup 'microc:camino|registro:PC|q[0]'
+Slack : -11.628
+TNS   : -11.628
+
+Type  : Slow Model Hold 'clk'
+Slack : -0.791
+TNS   : -2.901
+
+Type  : Slow Model Hold 'microc:camino|registro:PC|q[0]'
+Slack : 1.554
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'clk'
+Slack : -1.631
+TNS   : -221.591
+
+Type  : Slow Model Minimum Pulse Width 'microc:camino|registro:PC|q[0]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Setup 'microc:camino|registro:PC|q[0]'
+Slack : -3.977
+TNS   : -3.977
+
+Type  : Fast Model Setup 'clk'
+Slack : -3.788
+TNS   : -548.762
+
+Type  : Fast Model Hold 'clk'
+Slack : -0.987
+TNS   : -16.869
+
+Type  : Fast Model Hold 'microc:camino|registro:PC|q[0]'
+Slack : 0.576
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'clk'
+Slack : -1.380
+TNS   : -181.380
+
+Type  : Fast Model Minimum Pulse Width 'microc:camino|registro:PC|q[0]'
+Slack : 0.500
+TNS   : 0.000
+
+------------------------------------------------------------
